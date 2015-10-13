@@ -11,6 +11,8 @@ gulp.task('build', function() {
     gulp.src(['scripts/**'])
         .pipe(concat('index.js'))
         .pipe(gulp.dest('js'));
+    gulp.src(['vendor/jquery/dist/jquery.min.map'])
+        .pipe(gulp.dest('js'));
 });
 gulp.task('concat', function(){
     gulp.src(([
