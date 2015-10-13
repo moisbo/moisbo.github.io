@@ -1,0 +1,75 @@
+body{
+    background-color: #e6e6e6;
+}
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    max-height: 100%;
+}
+.aligncenter{
+    text-align: center;
+    clear: both;
+    display: block;
+    margin: 0.75em auto;
+}
+.app-button {
+    float: right;
+    line-height: 64px;
+    padding-right: 15px;
+    height: 45px;
+}
+.app-icon img {
+    display: block;
+    float: left;
+    height: 64px;
+    margin-right: 15px;
+    width: 64px;
+}
+.visible-lg {
+    display: block !important;
+}
+.project{
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+}
+.lockup{
+    float: left;
+    margin: 0 13px 0 4px;
+    padding: 0;
+    width: auto;
+}
+.screenshots{
+    padding: 0px;
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    margin: 0 14px;
+    max-height: 600px;
+    min-height: 580px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 16px;
+    position: relative;
+    white-space: nowrap;
+    width: auto;
+}
+.detail-list{
+    padding:0px;
+}
+.detail{
+    font-size: 14px;
+    overflow-x: hidden;
+    padding: 2px 0 2px 2px;
+    white-space: nowrap;
+    width: 100%;
+}
+.user-avatar{
+    height: 120px;
+    text-align: right;
+    width: 160px;
+}
+.img-avatar{
+    border-radius: 15px;
+}
