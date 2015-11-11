@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="css/vendor/bootstrap-social.css">
+    <link rel="stylesheet" href="css/vendor/font-awesome.min.css">
     <link rel='stylesheet' href="css/vendor/loading-bar.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body ng-app="App">
 <div class="holder">
-    <!-- Add your site or application content here -->
     <div ng-include="'header.html'"></div>
     <div class="container inside">
         <div ui-view></div>
@@ -31,5 +32,6 @@
     ga('send', 'pageview');
 </script>
 <script src="js/app.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>

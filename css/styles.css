@@ -66,9 +66,10 @@ img {
     width: 100%;
 }
 .user-avatar{
-    height: 120px;
+    height: 140px;
     text-align: right;
     width: 160px;
+    padding: 6px;
 }
 .img-avatar{
     border-radius: 15px;

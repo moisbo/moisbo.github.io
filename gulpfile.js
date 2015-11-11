@@ -3,10 +3,15 @@ var gulp = require('gulp'),
 
 gulp.task('build', function() {
     gulp.src(['vendor/bootstrap/dist/css/bootstrap.min.css',
+        'vendor/bootstrap-social/bootstrap-social.css',
+        'vendor/font-awesome/css/font-awesome.min.css',
         'vendor/angular-loading-bar/build/loading-bar.min.css'])
         .pipe(gulp.dest('css/vendor'));
     gulp.src(['vendor/bootstrap/fonts/glyphicons-halflings-regular.woff',
-        'vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2'])
+        'vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2',
+        'vendor/font-awesome/fonts/fontawesome-webfont.woff',
+        'vendor/font-awesome/fonts/fontawesome-webfont.woff2',
+        'vendor/font-awesome/fonts/fontawesome-webfont.ttf'])
         .pipe(gulp.dest('css/fonts'));
     gulp.src(['scripts/**'])
         .pipe(concat('index.js'))

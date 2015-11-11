@@ -22,6 +22,8 @@
     "angular-route": "~1.4.7",
     "angular-ui-router": "~0.2.15",
     "angular-loading-bar": "~0.8.0",
-    "jquery":"1.11.3"
+    "jquery": "1.11.3",
+    "bootstrap-social": "~4.10.1",
+    "font-awesome": "~4.4.0"
   }
 }
