@@ -1,5 +1,6 @@
 var gulp = require('gulp'),
-    concat = require('gulp-concat');
+    concat = require('gulp-concat'),
+    minify = require('gulp-minify');
 
 gulp.task('build', function() {
     gulp.src(['vendor/bootstrap/dist/css/bootstrap.min.css',
@@ -13,8 +14,8 @@ gulp.task('build', function() {
         'vendor/font-awesome/fonts/fontawesome-webfont.woff2',
         'vendor/font-awesome/fonts/fontawesome-webfont.ttf'])
         .pipe(gulp.dest('css/fonts'));
-    gulp.src(['scripts/**'])
-        .pipe(concat('index.js'))
+    gulp.src(['scripts/**/*'])
+        .pipe(concat('app.js'))
         .pipe(gulp.dest('js'));
     gulp.src(['vendor/jquery/dist/jquery.min.map'])
         .pipe(gulp.dest('js'));
@@ -27,11 +28,19 @@ gulp.task('concat', function(){
         'vendor/angular-ui-router/release/angular-ui-router.min.js',
         'vendor/angular-loading-bar/build/loading-bar.min.js',
         'js/index.js']))
-        .pipe(concat('app.js'))
+        .pipe(concat('lib.js'))
         .pipe(gulp.dest('js'));
-})
+});
+gulp.task('compress', function() {
+    gulp.src('js/app.js')
+        .pipe(minify({
+            exclude: [],
+            ignoreFiles: []
+        }))
+        .pipe(gulp.dest('js'))
+});
 gulp.task('watch', function () {
-    gulp.watch(['scripts/**/*.js'], ['build','concat']);
+    gulp.watch(['scripts/**/*.js','js/*.js'], ['build', 'concat', 'compress']);
 });
 
 gulp.task('default', ['build', 'watch', 'concat']);
