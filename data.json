@@ -1,48 +1,45 @@
 {
-  "details": [
-    {
-      "text":"Moises Sacal",
-      "link":"mailto:moisbo@gmail.com",
-      "images":[],
-      "class":"glyphicon glyphicon-triangle-right"
-    },
-    {
-      "text":"Sydney, Australia",
-      "link":"",
-      "images":[],
-      "class":"glyphicon glyphicon-map-marker"
-    },
-    {
-      "text":"Last update on Nov, 2015",
-      "link":"",
-      "images":[],
-      "class":"glyphicon glyphicon-calendar"
-    },
-    {
-      "text":"",
-      "link":"http://linkedin.com/in/moisbo",
-      "images":[],
-      "class":"right",
-      "linkClass":"btn btn-social-icon btn-github",
-      "spanClass":"fa fa-linkedin"
-    },
-    {
-      "text":"",
-      "link":"http://bitbucket.org/moisbo",
-      "images":[],
-      "class":"right",
-      "linkClass":"btn btn-social-icon btn-github",
-      "spanClass":"fa fa-bitbucket"
-    },
-    {
-      "text":"",
-      "link":"http://github.com/moisbo",
-      "images":[],
-      "class":"right",
-      "linkClass":"btn btn-social-icon btn-github",
-      "spanClass":"fa fa-github"
-    }
-  ],
+  "details": {
+    "content": [
+      {
+        "text": "Moises Sacal",
+        "link": "mailto:moisbo@gmail.com",
+        "spanClass": "glyphicon glyphicon-triangle-right"
+      },
+      {
+        "text": "Sydney, Australia",
+        "link":"#contact",
+        "spanClass": "glyphicon glyphicon-map-marker"
+      },
+      {
+        "text": "Last update: March, 2016",
+        "link":"#contact",
+        "spanClass": "glyphicon glyphicon-calendar"
+      }
+    ],
+    "social": [
+      {
+        "class": "btn btn-social-icon btn-linkedin",
+        "href": "http://linkedin.com/in/moisbo",
+        "span": "fa fa-linkedin"
+      },
+      {
+        "class": "btn btn-social-icon btn-bitbucket",
+        "href": "http://bitbucket.org/moisbo",
+        "span": "fa fa-bitbucket"
+      },
+      {
+        "class": "btn btn-social-icon btn-github",
+        "href": "http://github.com/moisbo",
+        "span": "fa fa-github"
+      },
+      {
+        "class": "btn btn-social-icon btn-openid",
+        "href": "http://stackoverflow.com/users/1470833/moises-sacal",
+        "span": "fa fa-stack-overflow"
+      }
+    ]
+  },
   "projects": [
     {
       "name": "",
@@ -59,8 +56,8 @@
         "Cooler Carbon (<a href='http://coolercarbon.com.au' target='_blank'>coolercarbon.com.au</a>) is a management tool that houses carbon footprint calculators and management tools for farmers."
       ],
       "images": [
-        "cmt_page2.jpg",
-        "cmt_page.jpg"
+        "cmt_page2.png",
+        "cmt_page.png"
       ],
       "alt": "Node.JS, PostgreSQL, jQuery",
       "link": "http://cmt.coolercarbon.com.au"
@@ -72,8 +69,8 @@
         "The Data Portal are datasets in the repository that consist of research data and descriptive contextual data (metadata) about the experiments and personal involved."
       ],
       "images": [
-        "n2o_page.jpg",
-        "n2o_page2.jpg"
+        "n2o_page.png",
+        "n2o_page2.png"
       ],
       "alt": "Java, JSP, PostgreSQL, React, jQuery",
       "link": "http://n2o.net.au"
@@ -94,8 +91,7 @@
       "name": "Semi-Automated Gas Sampling App",
       "ps": [
         "A hybrid app to remote control hardware via Wi-Fi available on the Google Play Store and the Apple App Store",
-        "<a class='app-button visible-md visible-lg hidden-xs hidden-sm' href='https://play.google.com/store/apps/details?id=com.moisbo.rch'><img src='images/google-play-button.png' alt='google-play-button'/></a>",
-        "<a class='app-button visible-md visible-lg hidden-xs hidden-sm' href='https://itunes.apple.com/au/app/gas-sampling-system/id1032142596'><img src='images/app-store-button.png' alt='app-store-button'/></a>"
+        "<a class='app-button' href='https://play.google.com/store/apps/details?id=com.moisbo.rch'><img src='images/google-play-badge.png' alt='google-play-button'/></a><a class='app-button' href='https://itunes.apple.com/au/app/gas-sampling-system/id1032142596'><img src='images/app-store-badge.png' alt='app-store-button'/></a>"
       ],
       "images": [
         "rch1.jpeg",
@@ -113,8 +109,8 @@
         "Socrates (<a href='http://socrates.n2o.net.au/input' target='_blank'>socrates.n2o.net.au</a>) A simulation tool for predicting long-term changes in soil organic carbon in terrestrial ecosystems."
       ],
       "images": [
-        "soc_page1.jpg",
-        "soc_page2.jpg"
+        "soc_page1.png",
+        "soc_page2.png"
       ],
       "alt": "Node.JS, PostgreSQL, jQuery",
       "link": "http://socrates.n2o.net.au/input"
@@ -148,8 +144,8 @@
         "Data feeds for consistent observations of energy, carbon and water exchange between the atmosphere."
       ],
       "images": [
-        "flux_page2.jpg",
-        "flux_page.jpg"
+        "flux_page2.png",
+        "flux_page.png"
       ],
       "alt": "Node.JS, Angular, Sqlite",
       "link": "http://fluxtower.n2o.net.au"

@@ -2,8 +2,11 @@
     <div class="row project">
         <div class="col-sm-9 app-icon col-xs-12">
             <ul class="detail-list">
-                <li class="detail" ng-repeat="c in details"><span ng-class="c.class"></span>
-                    <a ng-class="c.linkClass" ng-href="{{c.link}}">{{ c.text }}<span ng-class="c.spanClass"></span></a>
+                <li ng-repeat="c in details.content">
+                    <span ng-class="c.spanClass"></span><a ng-href="{{c.link}}">{{ c.text }}</a>
+                </li>
+                <li>
+                    <a ng-class="a.class" ng-repeat="a in details.social" href="{{a.href}}"><span ng-class="a.span"></span></a>
                 </li>
             </ul>
         </div>

@@ -17,8 +17,11 @@ img {
     display: block;
     margin: 0.75em auto;
 }
+p .app-button {
+    display: inline-block;
+    margin-left: 3px;
+}
 .app-button {
-    float:left;
     text-align: center;
 }
 .app-icon img {
@@ -60,6 +63,7 @@ img {
 }
 .detail-list{
     padding: 0px;
+    list-style-type: none;
 }
 .detail{
     font-size: 14px;
@@ -76,4 +80,7 @@ img {
 }
 .img-avatar{
     border-radius: 15px;
+}
+.btn {
+    margin:3px;
 }
