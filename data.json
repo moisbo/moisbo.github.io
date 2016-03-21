@@ -121,7 +121,7 @@
         "A fresh and modern weather station (<a href='http://www.serf.qut.edu.au/research/dataresources/qut-dataresources-searchresults.jsp?id=263' target='_blank'>serf.qut.edu.au</a>) for the Samford Ecological Research Facility (SERF) that uses <a href='http://www.davisinstruments.com.au/' target='_blank'>DAVIS</a> instruments."
       ],
       "images": [
-        "swm_page.jpg"
+        "swm_page.png"
       ],
       "alt": "C, jQuery, Node.JS",
       "link": "http://www.serf.qut.edu.au/research/dataresources/qut-dataresources-searchresults.jsp?id=263"
