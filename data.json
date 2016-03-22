@@ -81,11 +81,11 @@
         "Semi-Automated Gas Sampling Systems are systems that capture a greenhouse gas samples from soils for further analysis. The system consists of one or multiple chambers linked to a sampling box. The Chambers rely on the accumulation of greenhouse gases within the open bottomed chamber that is placed directly on the soil surface. The air sample is taken from within the Chamber (headspace), injected into an vials and later analysed in a laboratory using a gas chromatograph to determine the amount of nitrous oxide (N<sub>2</sub>O), methane (CH<sub>4</sub>) and carbon dioxide (CO<sub>2</sub>). These devices are controlled with a central computer managed via an app or a web browser."
       ],
       "images": [
-        "gss_page.jpg",
-        "semi_page.png"
+        "gss_page.png",
+        "gss_page1.png"
       ],
       "alt": "Python, Tornado, Sqlite, jQuery",
-      "link": "http://n2o.net.au"
+      "link": "http://bitbucket.org/moisbo"
     },
     {
       "name": "Semi-Automated Gas Sampling App",
