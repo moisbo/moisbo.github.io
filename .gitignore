@@ -1,5 +1,5 @@
 node_modules
-!css/vendor
 .idea
 .DS_Store
-vendor
+vendor/
+!css/vendor/
