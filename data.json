@@ -2,7 +2,7 @@
   "details": {
     "content": [
       {
-        "text": "Moises Sacal",
+        "text": "Moises Sacal Bonequi",
         "link": "mailto:moisbo@gmail.com",
         "spanClass": "glyphicon glyphicon-triangle-right"
       },
@@ -74,6 +74,19 @@
       ],
       "alt": "Java, JSP, PostgreSQL, React, jQuery",
       "link": "http://n2o.net.au"
+    },
+    {
+      "name": "The Australian SuperSite Network",
+      "ps": [
+        "The Australian SuperSite Network (<a style='text-align:center;' href='http://supersites.net.au' target='_blank'>supersites.net.au</a>) are a set of ecosystems where experiments are conducted.",
+        "The SuperSite network data is made available to the ecosystem research community from a single point of access to ease research data discovery and encourage the exchange of information between ecosystem scientist."
+      ],
+      "images": [
+        "supersites.png",
+        "supersites2.png"
+      ],
+      "alt": "Java, JSP, PostgreSQL, jQuery",
+      "link": "http://supersites.net.au"
     },
     {
       "name": "Semi-Automated Gas Sampling Systems",

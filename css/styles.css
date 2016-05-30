@@ -8,6 +8,9 @@ img {
     padding-right: 4px;
     padding-top: 4px;
 }
+.navbar-brand {
+    margin-left: 10px;
+}
 .right {
     float: right;
 }
