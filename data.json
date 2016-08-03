@@ -53,14 +53,14 @@
     {
       "name": "Cooler Carbon",
       "ps": [
-        "Cooler Carbon (<a href='http://cmt.coolercarbon.com.au' target='_blank'>cmt.coolercarbon.com.au</a>) is a management tool that houses carbon footprint calculators and management tools for farmers."
+        "Cooler Carbon (<a href='http://coolercotton.n2o.net.au' target='_blank'>coolercotton.n2o.net.au</a>) is a management tool that houses carbon footprint calculators and management tools for farmers."
       ],
       "images": [
         "cmt_page2.png",
         "cmt_page.png"
       ],
       "alt": "Node.JS, PostgreSQL, jQuery",
-      "link": "http://cmt.coolercarbon.com.au"
+      "link": "http://coolercotton.n2o.net.au"
     },
     {
       "name": "The N<sub>2</sub>O Network",
