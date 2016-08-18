@@ -160,8 +160,8 @@
         "flux_page2.png",
         "flux_page.png"
       ],
-      "alt": "Node.JS, Angular, Sqlite",
-      "link": "http://fluxtower.n2o.net.au"
+      "alt": "Node.JS, React, Sqlite",
+      "link": "http://github.com/QUT-IFE-eResearch/serf-weather-flux"
     }
   ]
 }
