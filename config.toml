@@ -1,4 +1,4 @@
-baseURL = 'https://moisbo.com'
+baseURL = 'https://moisbo.github.io/'
 languageCode = 'en-us'
 title = 'Moises Sacal'
 theme = "ananke"
